@@ -83,29 +83,6 @@ An Ember component consists of a Handlebars template file and an accompanying Em
 [Read more about ember components](https://guides.emberjs.com/v2.11.0/components/defining-a-component/)
 <br><br>
 
-### Services
-
-[Ember.Service](http://emberjs.com/api/classes/Ember.Service.html) is a class singleton object that holds on to state. It's lazy instantiated when it is used and it is never destroyed as long as the application runs. It isolates responsibilities of the application without using global variables.
-
-Services can be helpful in several situations. Here are a few examples that you might want to use an Ember service.
-
-
- - Session Data
- - APIs that talk to a server
- - WebSockets
- - GeoLocation data
- - Events pushed from a server
-
-
-The `services` are for injecting data anywhere you want. He is used for data that you will need to load in places you don't know. Sometimes in a route, sometimes in a component. For example: A `shopping cart`. If you want to add products and send info to the cart. You want both to store info and fetch info.
-
-Sometimes you will need this info to get from the route. Sometimes a component will want this data to display something. It doesn't matter where you are. You just inject the `shopping-cart` service and get or set the data you want
-
-Think about it. Where will you store the info of a shopping cart? in a route? in component?
-If you store it a component how would you access that data when you are in another route that doesn't consume that component?
-
-Summarizing when are going through multiple URLs, multiple routes, but we’ll want to keep the same state throughout all of that, and so that makes this a good use for a service.
-
 
 ### Coding style
 
