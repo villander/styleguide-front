@@ -25,7 +25,8 @@ and actions go from:
 
 `componentN -> ... -> component1 -> component-container -> router` <br><br>
 
-https://emberway.io/skeleton-screen-loading-in-ember-js-2f7ac2384d63
+
+Our product in principle will not have controllers, except in extreme cases. We will only have routes and components.
 
 Our components will be based on High order components and the idea of reuse. These two talks are prerequisites for the development of these components
 
@@ -34,6 +35,7 @@ Our components will be based on High order components and the idea of reuse. The
 Components](https://emberway.io/skeleton-screen-loading-in-ember-js-2f7ac2384d63)
 - [Reusable Components](http://slides.com/miguelcamba/composable-components#/)
 - [Higher Order Components](http://slides.com/miguelcamba/higher-order-components#/)
+- [Skeleton Screen Loading](https://emberway.io/skeleton-screen-loading-in-ember-js-2f7ac2384d63)
 
 Here is an overview of our application’s data flow:<br><br>
 
