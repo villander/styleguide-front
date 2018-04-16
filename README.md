@@ -93,8 +93,6 @@ An Ember component consists of a Handlebars template file and an accompanying Em
 * **ember test.** Before submitting a pull request.  check if all test pass.
 
 * **Comments.** Include block-style (`/**`) comments before  functions with a non-trivial or non-obvious purpose. Include line-style (`//`) comments wherever code might not be obvious to a future contributor, years later, without your knowledge of the functioning of the code. If an intermediate-level Ember developer will wonder why something works, explain it.
-* **Actions.** Accept action closures rather than strings representing action names.
-`{{some-component someAction=(action "myAction")}}`, not `{{some-component someAction="myAction" param="the stuff" target=someTarget}}`. Invoke the action with `this.sendAction('onWhatever');`. There is no need to test for the presence of `onWhatever` as `sendAction` handles that situation.
 
 * **indentation.** 2 spaces for JAVASCRIPT, HTML & CSS. Never tabs.
 
@@ -118,8 +116,8 @@ An Ember component consists of a Handlebars template file and an accompanying Em
 
 ### CSS style
 
+- [RSCSS](http://rscss.io/index.html)
+
 - [Airbnb CSS](https://github.com/airbnb/css)
 
-- [CSS Architecture](https://flama.github.io/css-styleguide/contents/stylesheets-folder-architecture)
-
-- [RSCSS](http://rscss.io/index.html)
+- [CSS Architecture](https://github.com/ember-learn/ember-api-docs/tree/master/app/styles)
